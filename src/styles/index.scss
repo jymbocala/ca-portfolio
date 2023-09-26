@@ -10,7 +10,25 @@
   padding: 0;
 }
 
-h1 { 
-  margin-left: 1rem;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  // justify-content: center;
+  height: 100vh;
 }
 
+main {
+  border: 2px green solid;
+  background-color: rgb(152, 181, 152);
+  margin-top: 2.7rem;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  border: 2px blue solid;
+  background-color: rgb(147, 141, 234);
+}

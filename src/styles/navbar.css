@@ -1,8 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&display=swap");
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 #main_nav {
   display: none;
   position: absolute;
-  top: 0;
-  background: #fff;
+  background: #F05454;
 }
 
 #main_nav:target {
@@ -46,15 +59,31 @@ ul li {
   width: 40px;
   height: 0;
   padding-top: 40px;
+  margin: 25px 25px 0 0;
   overflow: hidden;
-  border: 1px solid #ccc;
-  background: white 10px 10px/20px 20px no-repeat;
+  background: #F05454 10px 10px/20px 20px no-repeat;
 }
 
 #access_nav {
-  background-image: repeating-linear-gradient(#ccc, #ccc 2px, #fff 2px, #fff 4px);
+  background-image: repeating-linear-gradient(#222831, #222831 2px, #F05454 4px, #F05454 7px);
 }
 
 #access_top {
-  background-image: linear-gradient(45deg, transparent 13px, #ccc 13px, #ccc 15px, transparent 0), linear-gradient(-45deg, white 13px, #ccc 13px, #ccc 15px, white 0);
+  background-image: linear-gradient(45deg, transparent 13px, #222831 13px, #222831 15px, transparent 0), linear-gradient(-45deg, #F05454 13px, #222831 13px, #222831 15px, #F05454 0);
+}
+
+.mob_nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+#nav_initials {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  margin-left: 1rem;
+  color: #222831;
 }/*# sourceMappingURL=navbar.css.map */

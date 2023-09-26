@@ -1,14 +1,7 @@
+@use "base";
 @import "/src/styles/navbar.css";
 
 // for mobile > screens under 400px
-
-
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 .container {
   display: flex;
@@ -16,12 +9,13 @@
   align-items: center;
   // justify-content: center;
   height: 100vh;
+  background-color: base.$primary;
 }
 
 main {
   border: 2px green solid;
   background-color: rgb(152, 181, 152);
-  margin-top: 2.7rem;
+  // margin-top: 2.7rem;
   width: 100%;
   height: 100%;
 }

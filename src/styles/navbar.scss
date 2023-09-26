@@ -1,5 +1,24 @@
 @use "base";
 
+/* === Mobile Initial Navbar === */
+.mob_nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.nav_initials {
+  font-family: 'M PLUS Rounded 1c', sans-serif;  
+  font-weight: 900;
+  font-size: larger;
+  margin-left: 1rem;
+  color: base.$dark;
+  text-decoration: none;
+}
+
+/* === Mobile Full Navigation === */
 #main_nav {
   display: none;
   position: absolute;
@@ -29,18 +48,6 @@
   }
 }
 
-ul li {
-  list-style: none;
-  text-align: center;
-  font-size: larger;
-  padding: 1.2rem;
-}
-
-.nav_link {
-  text-decoration: none;
-  color: #000;
-}
-
 .access_aid {
   display: block;
   position: absolute;
@@ -51,8 +58,6 @@ ul li {
   padding-top: 40px;
   margin: 25px 25px 0 0;
   overflow: hidden;
-  // border: 1px solid #ccc;
-  // border-radius: 5px;
   background: base.$primary 10px 10px / 20px 20px no-repeat;
 }
 
@@ -65,18 +70,41 @@ ul li {
   background-image: linear-gradient(45deg, transparent 13px, base.$dark 13px, base.$dark 15px, transparent 0), linear-gradient(-45deg, base.$primary 13px, base.$dark 13px, base.$dark 15px, base.$primary 0);
 }
 
-.mob_nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  padding: 0.5rem;
+ul {
+  padding-left: 0;
+
+  li {
+  list-style: none;
+  text-align: center;
+  font-size: larger;
+  padding: 1.2rem 0;
+  }
+
+  .nav_link {
+    text-decoration: none;
+    color: base.$dark;
+    font-weight: 700;
+  }
 }
 
-#nav_initials {
-  font-family: 'M PLUS Rounded 1c', sans-serif;  
-  font-weight: 900;
-  font-size: larger;
-  margin-left: 1rem;
-  color: base.$dark;
+#main_nav_initials {
+  font-size: 36px;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  height: 40px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: base.$secondary;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: base.$light;
 }

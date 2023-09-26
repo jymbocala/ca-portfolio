@@ -1,17 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800;900&display=swap");
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 
+/* === Mobile Initial Navbar === */
+.mob_nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.nav_initials {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 900;
+  font-size: larger;
+  margin-left: 1rem;
+  color: #222831;
+  text-decoration: none;
+}
+
+/* === Mobile Full Navigation === */
 #main_nav {
   display: none;
   position: absolute;
@@ -39,18 +57,6 @@ body {
     height: 100vh;
   }
 }
-ul li {
-  list-style: none;
-  text-align: center;
-  font-size: larger;
-  padding: 1.2rem;
-}
-
-.nav_link {
-  text-decoration: none;
-  color: #000;
-}
-
 .access_aid {
   display: block;
   position: absolute;
@@ -72,18 +78,39 @@ ul li {
   background-image: linear-gradient(45deg, transparent 13px, #222831 13px, #222831 15px, transparent 0), linear-gradient(-45deg, #F05454 13px, #222831 13px, #222831 15px, #F05454 0);
 }
 
-.mob_nav {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
-  padding: 0.5rem;
+ul {
+  padding-left: 0;
+}
+ul li {
+  list-style: none;
+  text-align: center;
+  font-size: larger;
+  padding: 1.2rem 0;
+}
+ul .nav_link {
+  text-decoration: none;
+  color: #222831;
+  font-weight: 700;
 }
 
-#nav_initials {
-  font-family: "M PLUS Rounded 1c", sans-serif;
-  font-weight: 900;
-  font-size: larger;
-  margin-left: 1rem;
-  color: #222831;
+#main_nav_initials {
+  font-size: 36px;
+}
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  height: 40px;
+  width: 200px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #30475E;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  color: #DDDDDD;
 }/*# sourceMappingURL=navbar.css.map */

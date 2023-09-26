@@ -1,5 +1,16 @@
-h1 { 
-  color: red;
-  text-decoration: underline;
-  margin-left: rem;
+@import "/src/styles/navbar.css";
+
+// for mobile > screens under 400px
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
+h1 { 
+  margin-left: 1rem;
+}
+

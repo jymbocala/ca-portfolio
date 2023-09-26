@@ -1,5 +1,10 @@
+@import "/src/styles/navbar.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
-  color: red;
-  text-decoration: underline;
-  margin-left: rem;
+  margin-left: 1rem;
 }/*# sourceMappingURL=index.css.map */

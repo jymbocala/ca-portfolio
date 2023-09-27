@@ -53,12 +53,15 @@ main {
 }
 
 .hero_info {
+  * {
+    margin-top: 1rem;
+  }
+
   :first-child {
     margin: 0;
   }
 
   #fullname {
-    margin-top: 10px;
     font-weight: 400;
   }
 }
@@ -86,14 +89,23 @@ main {
     }
   }
 
-
   :not(:first-child) {
-    flex: 1;
+    // flex: 1;
+    background-color: transparent;
+    border: none;
+    margin: 0 1rem;
   }
-
 }
 
 
+.icon {
+  max-width: 40px;
+
+  path {
+    fill: base.$light;
+  }
+} 
+  
 
 
 /* === FOOTER === */

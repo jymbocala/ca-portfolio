@@ -52,11 +52,13 @@ main {
   color: #F05454;
 }
 
+.hero_info * {
+  margin-top: 1rem;
+}
 .hero_info :first-child {
   margin: 0;
 }
 .hero_info #fullname {
-  margin-top: 10px;
   font-weight: 400;
 }
 
@@ -82,7 +84,16 @@ main {
   padding: 1.5rem;
 }
 .hero_links :not(:first-child) {
-  flex: 1;
+  background-color: transparent;
+  border: none;
+  margin: 0 1rem;
+}
+
+.icon {
+  max-width: 40px;
+}
+.icon path {
+  fill: #DDDDDD;
 }
 
 /* === FOOTER === */

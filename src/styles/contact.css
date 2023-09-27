@@ -22,7 +22,7 @@ body {
 h1 {
   text-align: left;
   text-transform: uppercase;
-  font-size: 2.4rem;
+  font-size: 2.6rem;
   margin-bottom: 3rem;
 }
 
@@ -49,6 +49,12 @@ input, textarea {
   border-radius: 5px;
   background-color: #DDDDDD;
 }
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-size: 1rem;
+}
+input::placeholder, textarea::placeholder {
+  font-size: 1rem;
+}
 
 input[name=subject] {
   margin-bottom: 1rem;
@@ -57,6 +63,12 @@ input[name=subject] {
 
 textarea {
   padding: 0.5rem;
+}
+textarea::-moz-placeholder {
+  font-size: 1.1rem;
+}
+textarea::placeholder {
+  font-size: 1.1rem;
 }
 
 input[type=submit] {

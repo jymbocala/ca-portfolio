@@ -1,4 +1,71 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 /* === CONTACT PAGE === */
-h2 {
+.contact_form_wrapper {
+  max-width: 100%;
+  margin: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
   text-align: left;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+form * {
+  flex-grow: 1;
+}
+
+.input_group {
+  display: flex;
+  justify-content: space-between;
+}
+.input_group input {
+  max-width: 48%;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+}
+
+input, textarea {
+  border: none;
+  border-radius: 5px;
+  background-color: #DDDDDD;
+}
+
+input[name=subject] {
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+}
+
+textarea {
+  padding: 0.5rem;
+}
+
+input[type=submit] {
+  max-width: 50%;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background-color: #F05454;
+  color: #222831;
+  font-weight: 600;
+  font-size: 1rem;
 }/*# sourceMappingURL=contact.css.map */

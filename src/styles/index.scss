@@ -18,12 +18,83 @@
 
 /* === MAIN === */
 main {
-  border: 2px green solid;
-  background-color: rgb(152, 181, 152);
-  // margin-top: 2.7rem;
+  background-color: base.$secondary;
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 100%;
+  color: base.$light;
+  text-align: center;
 }
+
+// main * {
+//   border: blue 1px solid;
+// }
+
+.hero {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.hero_image {
+  border: base.$light solid 2px;
+  display: flex;
+  width: 70%;
+	border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  margin-bottom: 3rem;
+}
+
+.font_color_primary {
+  color: base.$primary;
+}
+
+.hero_info {
+  :first-child {
+    margin: 0;
+  }
+
+  #fullname {
+    margin-top: 10px;
+    font-weight: 400;
+  }
+}
+
+.hero_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  :nth-child(1) {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent;
+    cursor: none;
+    border: none;
+    margin-bottom: 0.8rem;
+
+    #cv_button {
+      background-color: base.$primary;
+      color: base.$dark;
+      width: 50%;
+      border-radius: 50px;
+      padding: 1.5rem;
+    }
+  }
+
+
+  :not(:first-child) {
+    flex: 1;
+  }
+
+}
+
+
+
 
 /* === FOOTER === */
 footer {
@@ -32,8 +103,3 @@ footer {
   border: 2px purple solid;
   background-color: rgb(147, 141, 234);
 }
-
-/* === Import Media Queries === */
-// @media screen and (max-width: 480px) {
-//   @use "mediaqueries";
-// }

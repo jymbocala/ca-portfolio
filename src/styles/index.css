@@ -22,10 +22,67 @@ body {
 
 /* === MAIN === */
 main {
-  border: 2px green solid;
-  background-color: rgb(152, 181, 152);
+  background-color: #30475E;
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 100%;
+  color: #DDDDDD;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.hero_image {
+  border: #DDDDDD solid 2px;
+  display: flex;
+  width: 70%;
+  border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+  margin-bottom: 3rem;
+}
+
+.font_color_primary {
+  color: #F05454;
+}
+
+.hero_info :first-child {
+  margin: 0;
+}
+.hero_info #fullname {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+.hero_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.hero_links :nth-child(1) {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent;
+  cursor: none;
+  border: none;
+  margin-bottom: 0.8rem;
+}
+.hero_links :nth-child(1) #cv_button {
+  background-color: #F05454;
+  color: #222831;
+  width: 50%;
+  border-radius: 50px;
+  padding: 1.5rem;
+}
+.hero_links :not(:first-child) {
+  flex: 1;
 }
 
 /* === FOOTER === */
@@ -34,6 +91,4 @@ footer {
   width: 100%;
   border: 2px purple solid;
   background-color: rgb(147, 141, 234);
-}
-
-/* === Import Media Queries === *//*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

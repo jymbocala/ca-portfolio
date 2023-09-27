@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -20,6 +20,7 @@ body {
   background-color: #F05454;
 }
 
+/* === MAIN === */
 main {
   border: 2px green solid;
   background-color: rgb(152, 181, 152);
@@ -27,9 +28,12 @@ main {
   height: 100%;
 }
 
+/* === FOOTER === */
 footer {
   margin-top: auto;
   width: 100%;
-  border: 2px blue solid;
+  border: 2px purple solid;
   background-color: rgb(147, 141, 234);
-}/*# sourceMappingURL=index.css.map */
+}
+
+/* === Import Media Queries === *//*# sourceMappingURL=index.css.map */

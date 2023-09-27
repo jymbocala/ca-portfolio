@@ -128,15 +128,26 @@ footer {
 
     p {
       margin-bottom: 2rem;
+      font-size: 1.8rem;
+      font-stretch: expanded;
+      font-weight: 600;
+      line-height: 1.5;
     }
+  }
+
+  .cta_btn {
+    background-color: transparent;
+    border: 2px solid base.$primary;
+    color: base.$primary;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
   }
   
   .footer_info {
     display: flex;
-    border: red 1px solid;  
   }
 }
-
 
 .footer_alt_nav {
   li {
@@ -155,4 +166,5 @@ footer {
 
 .footer_lower {
   align-self: center;
+  margin-top: 1rem;
 }

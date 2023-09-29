@@ -1,10 +1,5 @@
 @use "base";
 @import "/src/styles/navbar.css";
-// @import "/src/styles/mediaqueries.css";
-// @import url("/src/styles/mediaqueries.css") (min-width: 400px);
-// @use "navbar";
-
-
 
 // for mobile > screens under 400px
 
@@ -16,10 +11,12 @@
   background-color: base.$dark;
 }
 
+
 /* === MAIN === */
 main {
   background-color: base.$secondary;
   display: flex;
+  flex-direction: column;
   align-items: center;
   width: 100%;
   min-height: 100vh;
@@ -28,12 +25,14 @@ main {
 }
 
 .hero {
+  border:1px red solid;
   display: flex;
-  flex-grow: 1;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
+  min-height: 80vh;
+  margin-top: 3rem;
 }
 
 .hero_image {
@@ -93,7 +92,6 @@ main {
   }
 }
 
-
 .icon {
   max-width: 40px;
 
@@ -101,7 +99,20 @@ main {
     fill: base.$light;
   }
 } 
-  
+
+
+/* === ABOUT ME === */
+.about_me {
+  border: red 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
 
 
 /* === FOOTER === */

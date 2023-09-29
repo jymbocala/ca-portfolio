@@ -11,10 +11,23 @@ body {
   overflow-y: scroll;
 }
 
-/* === TABLET SCREENS === */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  main {
-    background-color: #F5CF8E; /* Yellow */
+/* === Small devices (portrait tablets and large phones) === */
+@media only screen and (min-width: 500px) {
+  main, footer {
+    padding: 0 2rem;
+  }
+  .hero_image {
+    width: 50%;
+  }
+  .skills_container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 2rem;
   }
 }
-/* === DESKSTOP SCREENS === *//*# sourceMappingURL=mediaqueries.css.map */
+/* === Medium devices (landscape tablets) === */
+/* === Large devices (laptops/desktops) === */
+@media only screen and (min-width: 992px) {
+  main {
+    background-color: #d31ca8;
+  }
+}/*# sourceMappingURL=mediaqueries.css.map */

@@ -11,7 +11,6 @@
   background-color: base.$dark;
 }
 
-
 /* === MAIN === */
 main {
   background-color: base.$secondary;
@@ -25,7 +24,7 @@ main {
 }
 
 .hero {
-  border:1px red solid;
+  border: 1px red solid;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -39,7 +38,7 @@ main {
   border: base.$light solid 2px;
   display: flex;
   width: 70%;
-	border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+  border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
   margin-bottom: 3rem;
 }
 
@@ -50,6 +49,10 @@ main {
 .hero_info {
   * {
     margin-top: 1rem;
+  }
+
+  p {
+    line-height: 1.7;
   }
 
   :first-child {
@@ -75,7 +78,7 @@ main {
     border: none;
     margin-bottom: 0.8rem;
 
-    #cv_button {
+    #cv_btn {
       background-color: base.$primary;
       color: base.$dark;
       width: 50%;
@@ -98,8 +101,7 @@ main {
   path {
     fill: base.$light;
   }
-} 
-
+}
 
 /* === ABOUT ME === */
 .about_me {
@@ -111,9 +113,45 @@ main {
   min-height: 100vh;
   width: 100%;
   padding: 1.5rem;
-  margin-top: 3rem;
+  margin: 3rem 0;
 }
 
+.about_content {
+  text-align: left;
+  line-height: 1.7;
+  margin-bottom: 2rem;
+}
+
+#project_btn {
+  text-decoration: none;
+  color: base.$dark;
+  background-color: base.$primary;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem 1.5rem;
+}
+
+.skills_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin: 2rem 0;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      max-width: 25px;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+}
 
 /* === FOOTER === */
 footer {
@@ -129,7 +167,7 @@ footer {
 
 .footer_upper {
   text-transform: uppercase;
-  
+
   .footer_cta {
     padding: 2rem 0;
 
@@ -150,7 +188,7 @@ footer {
     border-radius: 5px;
     text-transform: uppercase;
   }
-  
+
   .footer_info {
     display: flex;
   }

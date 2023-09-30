@@ -5,13 +5,13 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  min-width: 100%;
   padding: 1.5rem;
   background-color: base.$primary;
 }
 
 .nav_initials {
-  font-family: 'M PLUS Rounded 1c', sans-serif;  
+  font-family: "M PLUS Rounded 1c", sans-serif;
   font-weight: 900;
   font-size: larger;
   margin-left: 1rem;
@@ -22,8 +22,9 @@
 /* === Mobile Full Navigation === */
 #main_nav {
   display: none;
-  position: absolute;
-  // top: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: base.$primary;
 }
 
@@ -63,22 +64,43 @@
 }
 
 #access_nav {
-  background-image: -webkit-repeating-linear-gradient(base.$dark, base.$dark 2px);
-  background-image: repeating-linear-gradient(base.$dark, base.$dark 2px, base.$primary 4px, base.$primary 7px);
+  background-image: -webkit-repeating-linear-gradient(
+    base.$dark,
+    base.$dark 2px
+  );
+  background-image: repeating-linear-gradient(
+    base.$dark,
+    base.$dark 2px,
+    base.$primary 4px,
+    base.$primary 7px
+  );
 }
 
 #access_top {
-  background-image: linear-gradient(45deg, transparent 13px, base.$dark 13px, base.$dark 15px, transparent 0), linear-gradient(-45deg, base.$primary 13px, base.$dark 13px, base.$dark 15px, base.$primary 0);
+  background-image: linear-gradient(
+      45deg,
+      transparent 13px,
+      base.$dark 13px,
+      base.$dark 15px,
+      transparent 0
+    ),
+    linear-gradient(
+      -45deg,
+      base.$primary 13px,
+      base.$dark 13px,
+      base.$dark 15px,
+      base.$primary 0
+    );
 }
 
 ul {
   padding-left: 0;
 
   li {
-  list-style: none;
-  text-align: center;
-  font-size: larger;
-  padding: 1.2rem 0;
+    list-style: none;
+    text-align: center;
+    font-size: larger;
+    padding: 1.2rem 0;
   }
 
   .nav_link {
@@ -108,4 +130,15 @@ ul {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   text-decoration: none;
   color: base.$light;
+}
+
+/* === SIDE NAVIGATION === */
+.sidebar {
+  display: none;
+  min-width: 10%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: lightblue;
 }

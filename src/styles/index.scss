@@ -1,30 +1,36 @@
 @use "base";
 @import "/src/styles/navbar.css";
 
-main {
-  background-color: base.$secondary;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  min-height: 100vh;
-  color: base.$light;
-  text-align: center;
-}
-
-.main_heading {
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 2.6rem;
-  margin: 2em 0;
-}
-
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
   background-color: base.$dark;
+  max-width: 100%;
+}
+
+.page_wrapper {
+  width: 100%;
+}
+
+main {
+  background-color: base.$secondary;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: base.$light;
+  text-align: center;
+}
+
+
+
+.main_heading {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 2.6rem;
+  margin: 2em 0;
 }
 
 /* === HOME PAGE === */
@@ -168,6 +174,7 @@ footer {
   background-color: base.$dark;
   border-bottom: 8px solid base.$primary;
   color: base.$light;
+  padding: 0 1rem;
 }
 
 .footer_upper {

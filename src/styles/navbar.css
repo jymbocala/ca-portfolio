@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 100%;
+  min-width: 100%;
   padding: 1.5rem;
   background-color: #F05454;
 }
@@ -33,7 +33,9 @@ body {
 /* === Mobile Full Navigation === */
 #main_nav {
   display: none;
-  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: #F05454;
 }
 
@@ -114,4 +116,15 @@ ul .nav_link {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   text-decoration: none;
   color: #DDDDDD;
+}
+
+/* === SIDE NAVIGATION === */
+.sidebar {
+  display: none;
+  min-width: 10%;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: lightblue;
 }/*# sourceMappingURL=navbar.css.map */

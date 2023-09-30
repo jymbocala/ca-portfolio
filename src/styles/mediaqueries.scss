@@ -41,6 +41,25 @@
       padding: 2rem 0;
     }
   }
+
+  /* Navigation */
+  .container {
+    flex-direction: row;
+    align-items: stretch;
+    // width: auto;
+
+    // > * {
+    //   border: 2px blue solid;
+    // }
+  }
+
+  .mob_nav {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+  }
 }
 
 /* === Large devices (laptops/desktops) === */

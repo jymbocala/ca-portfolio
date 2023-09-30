@@ -45,6 +45,17 @@ body {
   .footer_upper .footer_alt_nav {
     padding: 2rem 0;
   }
+  /* Navigation */
+  .container {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .mob_nav {
+    display: none;
+  }
+  .sidebar {
+    display: block;
+  }
 }
 /* === Large devices (laptops/desktops) === */
 @media only screen and (min-width: 992px) {

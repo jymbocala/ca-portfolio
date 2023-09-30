@@ -12,12 +12,24 @@ body {
   overflow-y: scroll;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222831;
+  max-width: 100%;
+}
+
+.page_wrapper {
+  width: 100%;
+}
+
 main {
   background-color: #30475E;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
   min-height: 100vh;
   color: #DDDDDD;
   text-align: center;
@@ -28,14 +40,6 @@ main {
   text-align: left;
   font-size: 2.6rem;
   margin: 2em 0;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #222831;
 }
 
 /* === HOME PAGE === */
@@ -167,6 +171,7 @@ footer {
   background-color: #222831;
   border-bottom: 8px solid #F05454;
   color: #DDDDDD;
+  padding: 0 1rem;
 }
 
 .footer_upper {

@@ -37,6 +37,7 @@ main {
 .hero {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 1.5rem;
@@ -123,12 +124,17 @@ main {
   width: 100%;
   padding: 1.5rem;
   margin: 3rem 0;
+
+  h2 {
+    width: 100%;
+  }
 }
 
 .about_content {
   text-align: left;
   line-height: 1.7;
   margin-bottom: 2rem;
+  width: 80%;
 }
 
 #project_btn {
@@ -167,7 +173,7 @@ main {
 
 /* === FOOTER === */
 footer {
-  margin-top: auto;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   width: 100%;

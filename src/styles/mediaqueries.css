@@ -82,6 +82,10 @@ body {
     display: block;
     margin-left: 0.5rem;
   }
+  /* Home Page */
+  .hero_image {
+    max-width: 40%;
+  }
   /* Blog and Projects Pages */
   .project_container,
   .blog_container {

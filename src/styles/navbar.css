@@ -101,6 +101,12 @@ ul .nav_link {
   margin: 0;
 }
 
+hr {
+  display: block;
+  border: 1px solid #222831;
+  width: 90%;
+}
+
 .download-btn {
   display: flex;
   justify-content: center;

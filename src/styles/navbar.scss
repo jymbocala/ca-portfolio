@@ -111,7 +111,8 @@ ul {
 }
 
 #main_nav_initials {
-  font-size: 36px;
+  font-size: 2.2rem;
+  margin: 0;
 }
 
 .download-btn {
@@ -120,12 +121,12 @@ ul {
   align-items: center;
   gap: 0.2rem;
   height: 40px;
-  width: 200px;
+  width: 30%;
   font-size: 1.2rem;
   font-weight: 400;
   cursor: pointer;
   border: none;
-  border-radius: 6px;
+  border-radius: 8px;
   background-color: base.$secondary;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   text-decoration: none;
@@ -133,12 +134,27 @@ ul {
 }
 
 /* === SIDE NAVIGATION === */
-.sidebar {
+.side-nav {
   display: none;
   min-width: 10%;
   height: 100vh;
   position: sticky;
   top: 0;
   left: 0;
-  background: lightblue;
+  background: base.$primary;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav_link_icon {
+  width: 30px;
+
+  path {
+    fill: base.$dark;
+  }
+}
+
+.light-fill > path {
+  fill: base.$light;
 }

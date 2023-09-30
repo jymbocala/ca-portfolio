@@ -27,6 +27,28 @@ body {
 }
 /* === Medium devices (landscape tablets) === */
 @media only screen and (min-width: 769px) {
+  /* Navigation */
+  .container {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  .mob_nav {
+    display: none;
+  }
+  .side-nav {
+    display: flex;
+  }
+  .nav_initials {
+    margin: 0;
+    font-size: 2.2rem;
+  }
+  .nav_link > p,
+  .download-btn > p {
+    display: none;
+  }
+  .download-btn {
+    width: 80%;
+  }
   /* Contact Page */
   .contact_form_wrapper {
     max-width: 80%;
@@ -45,20 +67,21 @@ body {
   .footer_upper .footer_alt_nav {
     padding: 2rem 0;
   }
-  /* Navigation */
-  .container {
-    flex-direction: row;
-    align-items: stretch;
-  }
-  .mob_nav {
-    display: none;
-  }
-  .sidebar {
-    display: block;
-  }
 }
 /* === Large devices (laptops/desktops) === */
 @media only screen and (min-width: 992px) {
+  /* Navigation */
+  .side-nav {
+    min-width: 15%;
+  }
+  .nav_link {
+    display: flex;
+  }
+  .nav_link > p,
+  .download-btn > p {
+    display: block;
+    margin-left: 0.5rem;
+  }
   /* Blog and Projects Pages */
   .project_container,
   .blog_container {

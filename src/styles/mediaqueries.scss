@@ -35,17 +35,13 @@
 
 /* === Large devices (laptops/desktops) === */
 @media only screen and (min-width: 992px) {
-  // main {
-  //   background-color: #d31ca8;
-  // }
-
-  /* Projects Page */
-  .project_container {
+  /* Blog and Projects Pages */
+  .project_container, .blog_container {
     justify-content: space-around;
     gap: 4em;
   }
 
-  .project_card {
+  .project_card, .blog_card  {
     flex-basis: 45%;
     max-width: 500px;
   }

@@ -23,7 +23,7 @@
   margin: 2rem 0;
   background-color: base.$light;
   color: base.$dark;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   &:first-of-type {
@@ -35,7 +35,7 @@
   width: 100%;
   aspect-ratio: 5 / 3;
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 8px 8px 0 0;
 }
 
 .project_card_content {
@@ -81,7 +81,7 @@
     width: 100%;
     padding: 0 0.2rem;
     border: 2px solid base.$primary;
-    border-radius: 5px;
+    border-radius: 8px;
     background-color: base.$primary;
     color: base.$dark;
     font-weight: 600;
@@ -95,6 +95,6 @@
 
   #code_link_btn {
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 8px;
   }
 }

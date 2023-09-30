@@ -30,12 +30,12 @@ h1 {
   color: #222831;
 }
 
-form {
+#contact_form {
   display: flex;
   flex-wrap: wrap;
 }
-form * {
-  flex-grow: 1;
+#contact_form * {
+  flex-basis: 100%;
 }
 
 .input_group {

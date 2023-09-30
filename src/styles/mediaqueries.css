@@ -34,15 +34,28 @@ body {
   #contact_submit_btn {
     max-width: 30%;
   }
+  /* Footer */
+  .footer_upper {
+    max-width: 80%;
+    align-self: center;
+  }
+  .footer_upper .footer_cta {
+    flex-basis: 70%;
+  }
+  .footer_upper .footer_alt_nav {
+    padding: 2rem 0;
+  }
 }
 /* === Large devices (laptops/desktops) === */
 @media only screen and (min-width: 992px) {
   /* Blog and Projects Pages */
-  .project_container, .blog_container {
+  .project_container,
+  .blog_container {
     justify-content: space-around;
     gap: 4em;
   }
-  .project_card, .blog_card {
+  .project_card,
+  .blog_card {
     flex-basis: 45%;
     max-width: 500px;
   }

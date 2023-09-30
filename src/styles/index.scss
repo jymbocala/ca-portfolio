@@ -164,13 +164,15 @@ footer {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 1rem;
   background-color: base.$dark;
   border-bottom: 8px solid base.$primary;
   color: base.$light;
 }
 
 .footer_upper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-transform: uppercase;
 
   .footer_cta {
@@ -216,6 +218,6 @@ footer {
 }
 
 .footer_lower {
-  align-self: center;
   margin-top: 1rem;
+  text-align: center;
 }

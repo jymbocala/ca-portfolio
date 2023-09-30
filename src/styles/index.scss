@@ -1,17 +1,6 @@
 @use "base";
 @import "/src/styles/navbar.css";
 
-// for mobile > screens under 400px
-
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  background-color: base.$dark;
-}
-
-/* === MAIN === */
 main {
   background-color: base.$secondary;
   display: flex;
@@ -23,6 +12,22 @@ main {
   text-align: center;
 }
 
+.main_heading {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 2.6rem;
+  margin: 2em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: base.$dark;
+}
+
+/* === HOME PAGE === */
 .hero {
   display: flex;
   flex-wrap: wrap;

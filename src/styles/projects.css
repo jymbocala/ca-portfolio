@@ -21,13 +21,6 @@ body {
   align-items: stretch;
 }
 
-h2 {
-  text-transform: uppercase;
-  text-align: left;
-  font-size: 2.5rem;
-  margin: 2em 0;
-}
-
 /* === PROJECT CARD === */
 .project_card {
   display: flex;

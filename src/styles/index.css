@@ -12,15 +12,6 @@ body {
   overflow-y: scroll;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  background-color: #222831;
-}
-
-/* === MAIN === */
 main {
   background-color: #30475E;
   display: flex;
@@ -32,6 +23,22 @@ main {
   text-align: center;
 }
 
+.main_heading {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 2.6rem;
+  margin: 2em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222831;
+}
+
+/* === HOME PAGE === */
 .hero {
   display: flex;
   flex-wrap: wrap;

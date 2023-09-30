@@ -27,9 +27,6 @@ body {
 }
 /* === Medium devices (landscape tablets) === */
 @media only screen and (min-width: 769px) {
-  main {
-    background-color: #25ba25;
-  }
   /* Contact Page */
   .contact_form_wrapper {
     max-width: 80%;
@@ -40,8 +37,14 @@ body {
 }
 /* === Large devices (laptops/desktops) === */
 @media only screen and (min-width: 992px) {
-  main {
-    background-color: #d31ca8;
+  /* Projects Page */
+  .project_container {
+    justify-content: space-around;
+    gap: 4em;
+  }
+  .project_card {
+    flex-basis: 45%;
+    max-width: 500px;
   }
   /* Contact Page */
   .contact_form_wrapper {

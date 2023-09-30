@@ -4,16 +4,17 @@
   display: flex;
   flex-wrap: wrap;
   max-height: 100%;
-  padding: 1rem 1.5rem;
-  margin: 0 auto 3rem;
+  padding: 1rem 0;
+  margin: 0 1.5rem 3rem;
+  justify-content: center;
+  align-items: stretch;
+}
 
-  h2 {
-    text-transform: uppercase;
-    text-align: left;
-    font-size: 2.5rem;
-    flex-grow: 1;
-    margin: 3rem 0;
-  }
+h2 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 2.5rem;
+  margin: 2em 0;
 }
 
 /* === PROJECT CARD === */
@@ -25,10 +26,6 @@
   color: base.$dark;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-  &:first-of-type {
-    margin-top: 0;
-  }
 }
 
 .project_img {
@@ -69,11 +66,10 @@
   // border: 1px red solid;
   width: 40%;
 
-
   &:first-of-type {
     margin-right: 1rem;
   }
-  
+
   button {
     display: flex;
     align-items: center;

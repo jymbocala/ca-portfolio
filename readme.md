@@ -31,14 +31,18 @@ Navigation bar also transforms into a side bar for larger device layouts.
 Use of reusable components such as the navbar, footer, project cards, and blog cards.
 
 ### Sitemap
-![Sitemap ](./docs/sitemap.png)
+<div align="center">
+  <img src="./docs/sitemap.png">
+</div>
 
 
 ### Screenshots
+<div align="center">
+  <img src="./docs/mobile-layout.png" max-width="400">
+  <img src="./docs/tablet-layout.png" max-width="400">
+  <img src="./docs/laptop-layout.png" max-width="400">
+</div>
 
-![Mobile Layout](./docs/mobile-layout.png)
-![Tablet Layout](./docs/tablet-layout.png)
-![Laptop Layout](./docs/laptop-layout.png)
 
 
 

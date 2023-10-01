@@ -1,5 +1,5 @@
-@use "base";
-@import "/src/styles/navbar.css";
+@use "./styles/base.css";
+@import "./styles/navbar.css";
 
 .container {
   display: flex;

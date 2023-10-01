@@ -1,4 +1,5 @@
-@import "/src/styles/navbar.css";
+@import "./styles/navbar.css";
+
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -26,12 +27,12 @@ body {
 }
 
 main {
-  background-color: #30475E;
+  background-color: #30475e;
   display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
-  color: #DDDDDD;
+  color: #dddddd;
   text-align: center;
 }
 
@@ -55,7 +56,7 @@ main {
 }
 
 .hero_image {
-  border: #DDDDDD solid 2px;
+  border: #dddddd solid 2px;
   display: flex;
   width: 70%;
   border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
@@ -63,7 +64,7 @@ main {
 }
 
 .font_color_primary {
-  color: #F05454;
+  color: #f05454;
 }
 
 .hero_info * {
@@ -95,7 +96,7 @@ main {
   margin-bottom: 0.8rem;
 }
 .hero_links :nth-child(1) #cv_btn {
-  background-color: #F05454;
+  background-color: #f05454;
   color: #222831;
   max-width: 40%;
   border-radius: 50px;
@@ -112,7 +113,7 @@ main {
   max-width: 40px;
 }
 .icon path {
-  fill: #DDDDDD;
+  fill: #dddddd;
 }
 
 /* === ABOUT ME === */
@@ -139,7 +140,7 @@ main {
 #project_btn {
   text-decoration: none;
   color: #222831;
-  background-color: #F05454;
+  background-color: #f05454;
   border-radius: 5px;
   border: none;
   padding: 1rem 1.5rem;
@@ -174,8 +175,8 @@ footer {
   flex-direction: column;
   width: 100%;
   background-color: #222831;
-  border-bottom: 8px solid #F05454;
-  color: #DDDDDD;
+  border-bottom: 8px solid #f05454;
+  color: #dddddd;
   padding: 0 1rem;
 }
 
@@ -197,8 +198,8 @@ footer {
 }
 .footer_upper .cta_btn {
   background-color: transparent;
-  border: 2px solid #F05454;
-  color: #F05454;
+  border: 2px solid #f05454;
+  color: #f05454;
   padding: 1rem 2rem;
   border-radius: 5px;
   text-transform: uppercase;
@@ -214,7 +215,7 @@ footer {
 }
 .footer_alt_nav li .footer_navlink {
   text-decoration: none;
-  color: #DDDDDD;
+  color: #dddddd;
   font-weight: 400;
   font-size: 1rem;
   text-decoration: underline;
@@ -223,4 +224,4 @@ footer {
 .footer_lower {
   margin-top: 1rem;
   text-align: center;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */

@@ -10,8 +10,9 @@ Tech stack (e.g. html, css, deployment platform, etc)
 
 # Jym Bocala Portfolio Site
 
-Live Site (link)
-GitHub Repository (link)
+### [Live Site 🔗](https://iridescent-nougat-1d4782.netlify.app)
+### [GitHub Repository 🔗](https://github.com/jymbocala/ca-portfolio)
+
 
 ## Description
 
@@ -22,8 +23,6 @@ As an aspiring developer, I'm well aware of the importance of showcasing my skil
 My portfolio website's main goal is to establish a strong online presence as a dedicated developer and IT professional. It provides insights into my background, skills, interests, and professional knowledge. Additionally, it showcases my completed projects, illustrating my capabilities and accomplishments effectively.
 
 
-
-
 ### Functionality / features
 Features for this site include:
 
@@ -32,18 +31,15 @@ Navigation bar also transforms into a side bar for larger device layouts.
 Use of reusable components such as the navbar, footer, project cards, and blog cards.
 
 ### Sitemap
- the structure and organization of the portfolio website, including the home page and their hierarchy.
+![Sitemap ](./docs/sitemap.png)
+
 
 ### Screenshots
-Add screenshots of your portfolio website to showcase its design and layout.
 
-Homepage
+![Mobile Layout](./docs/mobile-layout.png)
+![Tablet Layout](./docs/tablet-layout.png)
+![Laptop Layout](./docs/laptop-layout.png)
 
-Projects
-
-Blog
-
-Contact
 
 
 ### Target Audience

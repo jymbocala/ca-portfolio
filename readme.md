@@ -1,13 +1,3 @@
-A link (URL) to your published portfolio website
-A link to your GitHub repo
-Description of your portfolio website, including,
-Purpose
-Functionality / features
-Sitemap
-Screenshots
-Target audience
-Tech stack (e.g. html, css, deployment platform, etc)
-
 # Jym Bocala Portfolio Site
 
 ### [Live Site 🔗](https://iridescent-nougat-1d4782.netlify.app)
@@ -26,9 +16,9 @@ My portfolio website's main goal is to establish a strong online presence as a d
 ### Functionality / features
 Features for this site include:
 
-Custom navigation bar for mobile devices using a button to toggle a show and hide for the mobile navigation.
-Navigation bar also transforms into a side bar for larger device layouts.
-Use of reusable components such as the navbar, footer, project cards, and blog cards.
+- Custom navigation bar for mobile devices using a button to toggle a show and hide for the mobile navigation.
+- Navigation bar also transforms into a side bar for larger device layouts.
+- Use of reusable components such as the navbar, footer, project cards, and blog cards.
 
 ### Sitemap
 <div align="center">
@@ -37,12 +27,14 @@ Use of reusable components such as the navbar, footer, project cards, and blog c
 
 
 ### Screenshots
-<div align="center">
-  <img src="./docs/mobile-layout.png" max-width="400">
-  <img src="./docs/tablet-layout.png" max-width="400">
-  <img src="./docs/laptop-layout.png" max-width="400">
+<div>
+  <p>Mobile Layout</p>
+  <img src="./docs/mobile-layout.png" width="300">
+  <p>Tablet Layout</p>
+  <img src="./docs/tablet-layout.png" width="400">
+  <p>Laptop Layout</p>
+  <img src="./docs/laptop-layout.png" width="70%">
 </div>
-
 
 
 

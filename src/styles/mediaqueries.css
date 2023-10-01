@@ -18,7 +18,7 @@ body {
     padding: 0 2rem;
   }
   .hero_image {
-    width: 50%;
+    width: 35%;
   }
   .skills_container {
     grid-template-columns: repeat(6, 1fr);
@@ -48,6 +48,17 @@ body {
   }
   .download-btn {
     width: 80%;
+  }
+  .hero {
+    display: flex;
+    flex-direction: row;
+  }
+  .hero .hero_info {
+    width: 50%;
+  }
+  .hero .hero_image {
+    width: 35%;
+    margin-right: 2rem;
   }
   /* Contact Page */
   .contact_form_wrapper {
